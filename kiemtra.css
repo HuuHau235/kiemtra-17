@@ -1,0 +1,38 @@
+#productForm{
+    width: 600px;
+    border: 1px solid #dc3545;
+    padding: 50px;
+}
+.product-card {
+    margin-bottom: 20px;
+}
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.old-price {
+    text-decoration: line-through;
+    color: red;
+}
+.buy-button {
+    background-color: #dc3545;
+    color: white;
+    float: left;
+}
+.buy-button:hover {
+    background-color: gray;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.input-group label {
+    width: 150px;
+}
+#productForm .input-group{
+    width: 500px;
+}
+.text-center{
+    color: aqua;
+}
